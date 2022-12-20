@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayote Home</title>
+    <style>
+        .dropbtn {
+          background-color: #0ae4a2;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          margin-left: 5em;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: rgb(9, 255, 0);
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd; text-decoration: dashed;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #0ae4a2;}
+        </style>
+</head>
+<body>
+    <style>
+        #nav{
+            text-decoration: none;
+            background-color:rgb(43, 255, 0);
+            align-items: center;
+            height: auto;
+            font-size:1rem;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .nl{
+            list-style: none;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        .important{
+            list-style: none;
+            color: #f1f1f1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+        }
+        #li{
+            display: flex;
+            margin-left: 30em;
+            text-decoration: none;
+        }
+        .qw{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+            font-family: sans-serif;
+        }
+        #search{
+          background-color: #efefef;
+        }
+    </style>
+    <!--Navbar-->
+    <section></section>
+    <div id="nav">
+        <ul>
+                <li class="important"><h1>Kayote</h1></li>
+                <div id="li">
+            <li class="nl"><a class="qw" href="home.html">Home</a></li>
+            <li class="nl"><a class="qw"href="#">About</a></li>
+            <li class="nl"><a class="qw"href="#"><i>Sign-In</i></a></li>
+            <li class="nl"><a class="qw"href="https://www.hcuche.aniche@gmail.com">Email-hcuche.aniche@gmail.com</a></li>
+            </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Social-Media</button>
+                  <div class="dropdown-content">
+                    <a href="#">Phone-08051610019</a>
+                    <a href="#">Facebook-havilahandhills</a>
+                    <a href="#">Twiter-havilahandhills</a>
+                  </div>
+                </div>
+                
+        </ul>
+    </div>
+    <div id="search">
+        <div class="w3-container">
+            <h1>Kayote</h1>  
+            <p><i>The largest index of books in portharcourt.</i></p>  
+            <input class="w3-input w3-border w3-padding" type="text" placeholder="Search for books to filter.." id="myInput" onkeyup="myFunction()">
+          
+            <table class="w3-table-all w3-margin-top" id="myTable">
+              <tr>
+                <th style="width:33%;">Name</th>
+                <th style="width:33%;">Author</th>
+                <th style="width:33%;">Type of Book</th>
+              </tr>
+              <tr>
+                <td>Business @ The speed of thought</td>
+                <td>Bill Gates</td>
+                <td>Business</td>
+              </tr>
+              <tr>
+                <tr>
+                <td>Prince Chika And Other Stories</td>
+                <td>Delight Uche-Aniche</td>
+                <td>Book of storys</td>
+              </tr>
+              <tr>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>How to Win Freinds and Influence People</td>
+                <td>Dale Carneigie</td>
+                <td>Guide</td>
+              </tr>
+              <tr>
+                <td>Romeo & Juliet</td>
+                <td>William Shakespeare</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>We Were the Mulvanys</td>
+                <td>Joyce Caroll Oates</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Hamlet</td>
+                <td>Shakespeare</td>
+                <td>Play</td>
+              </tr>
+              <tr>
+                <td>Arrow of God</td>
+                <td>Chinua Achebe</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Middas Touch</td>
+                <td>Kenneth E. hagin</td>
+                <td>Christian Library</td>
+              </tr>
+              <tr>
+                <td>Ageless Day</td>
+                <td>Havilah Uche-Aniche</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Purple Hibiscus</td>
+                <td>Chimamanda Ngozi Adiche</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Half of a yellow sun</td>
+                <td>Chimamanda Ngozi Adiche</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Americahna</td>
+                <td>Chimamanda Ngozi Adiche</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Cell One</td>
+                <td>Chimamanda Ngozi Adiche</td>
+                <td>Novel</td>
+              </tr>
+              <tr>
+                <td>Why Revival Tarries</td>
+                <td>Leonard Ravenhill</td>
+                <td>Christian Library</td>
+              </tr>
+              <tr>
+                <td>Marketing And PR</td>
+                <td>Philip R.Holden and Nick Wilde</td>
+                <td>Business</td>
+              </tr>
+              <tr>
+                <td>Guide to investing, what the rich invest in that the poor and middle class dont</td>
+                <td>Robert T. kiyosaki and Sharon L. letcher, CPA</td>
+                <td>Business</td>
+              </tr>
+            </table>
+            </div>
+            <style>
+               #about{
+                width: 80em;
+                height: 30em;
+                background-color: #ffffff;
+                margin-left: 5em;
+                box-shadow: 0px 8px 16px 0px black;
+                align-items: center;
+            }
+            #about h2{
+                text-align: center;
+                margin-top: 2em;
+            }
+            #circle{
+              width: 5em;
+              height: 5em;
+              border-radius: 5em;
+              border:1px solid black;
+              text-align: center;
+              background-color: black;
+              color: white;
+            }
+            </style>
+            <div id="about">
+              <h2> >>>Testimonies<<< </h2>
+              <p><span><div id="circle">HH</div><p>Kayote has been very helpfull to me in my studies because most times you cant see the 
+                particular book you want to read and so it makes it hard to study, But with kayote everything is different.</p></span></p>
+                <p><span><div id="circle">ZIv</div><p>Kayote is an awesome website the UI is easy to understand and, i think it
+                   is the easiest i have come across so far</p></span></p>
+                <p><span><div id="circle">Bill</div><p>I recomend Kayote to any one who like me, reads a lot of books. because now that i am not having any 
+                  board meetings or Business meetings i spend my time in Philantropy and Reading. </p></span></p>
+            </div>
+            <hr>
+            <style>
+              #news h2,h1{
+                text-align: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              }
+              #news{
+                overflow-y: scroll;
+              }
+              #ns{
+                display: flex;
+              }
+              #n1{
+                background-color: #0ae4a2;
+                width: 50em;
+                height: 20em;
+                margin-left: 12px;
+              }
+            </style>
+            <div id="news">
+              <h2><b>News</b></h2>
+             <div id="ns">
+              <div id="n1"><h1>Mona Lisa</h1><h2><iframe width="560" height="315" src="https://www.youtube.com/embed/WQvxUyaruPU" title="Kayote" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></div>
+              <div id="n1"><h1>Life of Leonardo Davinci</h1><h2><iframe width="560" height="315" src="https://www.youtube.com/embed/vFO0AtF7f64" title="Kayote" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></div>
+              <div id="n1"><h1>Mary Selessor</h1><h2><iframe width="560" height="315" src="https://www.youtube.com/embed/kCO0JX6h0jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></div>
+              <div id="n1"><h1>Arrow of God</h1><h2><iframe width="560" height="315" src="https://www.youtube.com/embed/E6E6M-3enSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h2></div>
+             </div>
+            </div>
+          <script>
+          function myFunction() {
+            var input, filter, table, tr, td, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td")[0];
+              if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  tr[i].style.display = "";
+                } else {
+                  tr[i].style.display = "none";
+                }
+              }
+            }
+          }
+          </script>
+          
+          
+    </div>
+    <link rel="stylesheet" href="stylef.css">
+</body>
+</html>
